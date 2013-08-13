@@ -173,7 +173,6 @@
 
 - (NSArray *) neighborsFor:(HSAIPathFindingNode *)node
 {
-  NSLog(@"FUCK");
   return [[NSArray alloc] init];
 }
 
