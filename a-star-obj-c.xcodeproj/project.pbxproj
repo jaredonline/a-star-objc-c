@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		7FBC67A317BAD40700025913 /* HSAIPathFinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSAIPathFinding.h; sourceTree = "<group>"; };
+		7FBC67A417BAD40700025913 /* HSAIPathFinding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSAIPathFinding.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		7FBC679C17BAD3E500025913 = {
 			isa = PBXGroup;
 			children = (
+				7FBC67A317BAD40700025913 /* HSAIPathFinding.h */,
+				7FBC67A417BAD40700025913 /* HSAIPathFinding.m */,
 			);
 			sourceTree = "<group>";
 		};
