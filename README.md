@@ -63,5 +63,18 @@ I've been using it like this:
 
   [pathFinder findPathFrom: start to: end]; // returns an array of HSAIPathFindingNodes
 }
+
+- (BOOL) nodeIsPassable: (HSAIPathFindingNode *) node
+{
+  // The logic you use to figure out if a node is passable.
+  return YES;
+}
+
+- (NSArray *) neighborsFor: (HSAIPathFindingNode *) node
+{
+  // The logic you use to figure out neighbors
+  return [[NSArray alloc] init];
+}
+
 @end
 ```
