@@ -1,4 +1,4 @@
-a-stat-objc-c
+a-star-obj-c
 ==============
 
 A* Pathfinding Algorithm implemented in Objective-C
